@@ -15,7 +15,7 @@ export default function Layout({ children }) {
           line-height: 1.8;
           color: #333;
           font-family: sans-serif;
-          background: #003941;
+          background: #000;
         }
         h1 {
           font-weight: 700;

@@ -54,9 +54,9 @@ export default function Nav() {
           <Link href="/" passHref>
             <a className="cursor-pointer">
               <h1 className="text-2xl    font-mono">
-                <span className="late-text">Tato</span>
+                <span className="late-text">Skelton</span>
 
-                <span className="omo">Charge</span>
+                <span className="omo">King</span>
               </h1>
             </a>
           </Link>
@@ -100,49 +100,10 @@ export default function Nav() {
               </div>
             </a>
           </div>
-
           <MiniCart cart={cart} />
         </div>
       </div>
-      <div className="md:flex md:text-xs  text-white font-normal">
-        <div>
-          <Link href="/collections/body">
-            <a className="cursor-pointer">
-              <span className="text-lg  px-2  ">Mobile top-up</span>
-            </a>
-          </Link>
-        </div>
-        <div>
-          <Link href="/collections/body">
-            <a className="cursor-pointer">
-              <span className="text-lg  px-2  sm:px-4">Entertainment</span>
-            </a>
-          </Link>
-        </div>
-        <div>
-          <Link href="/collections/body">
-            <a className="cursor-pointer">
-              <span className="text-lg  px-2  sm:px-4">Shopping</span>
-            </a>
-          </Link>
-        </div>
-        <div>
-          <Link href="/collections/body">
-            <a className="cursor-pointer">
-              <span className="text-lg  px-2  sm:px-4">Gaming</span>
-            </a>
-          </Link>
-        </div>
-        <div>
-          <Link href="/collections/body">
-            <a className="cursor-pointer">
-              <span className="text-lg  px-2  sm:px-4">
-                Prepaid credit cards
-              </span>
-            </a>
-          </Link>
-        </div>
-      </div>
+
     </header>
   );
 }

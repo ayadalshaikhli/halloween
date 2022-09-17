@@ -8,16 +8,16 @@ import {
 } from "../lib/shopify";
 import { useContext, useEffect } from "react";
 import Hero from "../components/Hero";
-import Earth from "../components/Earth";
+// import Earth from "../components/Earth";
 import Icons from "../components/Icons";
 import Head from "next/head";
 import FrontPage from "../components/FrontPage";
 import { motion } from "framer-motion";
-import FirstCollectionList from "../components/firstcollection/FirstCollectionList";
-import SecoundCollectionList from "../components/secoundcollection/SecoundCollectionList";
-import ThirdCollectionList from "../components/thirdcollection/ThirdCollectionList";
+// import FirstCollectionList from "../components/firstcollection/FirstCollectionList";
+// import SecoundCollectionList from "../components/secoundcollection/SecoundCollectionList";
+// import ThirdCollectionList from "../components/thirdcollection/ThirdCollectionList";
 import { gsap, Expo } from "gsap/dist/gsap";
-import CollectionList from "../components/collections/CollectionList";
+// import CollectionList from "../components/collections/CollectionList";
 const tl = gsap.timeline({ defaults: { ease: "power2.out" } });
 export default function Home({ products, collections, necklaces, rings, earrings }) {
   useEffect(() => {
@@ -42,7 +42,7 @@ export default function Home({ products, collections, necklaces, rings, earrings
   return (
     <div className="relative body ">
       <Head>
-        <title>Tataroski</title>
+        <title>Skelton</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta
           httpEquiv="Content-Type"
@@ -55,7 +55,7 @@ export default function Home({ products, collections, necklaces, rings, earrings
           create the unique one for everyone. We love every passion and interest
           on Earth because it is a reference to the UNIQUENESS of everything."
         />
-        <meta property="og:title" content="Tataroski" />
+        <meta property="og:title" content="Skelton" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.buildnextshop.com" />
         <meta
@@ -70,7 +70,7 @@ export default function Home({ products, collections, necklaces, rings, earrings
           on Earth because it is a reference to the UNIQUENESS of everything."
         />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:site_name" content="Tataroski" />
+        <meta property="og:site_name" content="Skelton" />
 
         <link
           href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap"
